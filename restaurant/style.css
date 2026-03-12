@@ -1,0 +1,85 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#1f4037,#99f2c8);
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+/* Container */
+.container{
+width:100%;
+max-width:400px;
+}
+
+/* Card */
+.card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Headings */
+h2{
+text-align:center;
+margin-bottom:20px;
+color:#1f4037;
+}
+
+/* Inputs */
+input,select{
+width:100%;
+padding:10px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:5px;
+font-size:14px;
+}
+
+/* Button */
+button{
+width:100%;
+padding:10px;
+border:none;
+background:#1f4037;
+color:white;
+font-size:16px;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#16332c;
+}
+
+/* Links */
+a{
+text-decoration:none;
+color:#1f4037;
+font-weight:bold;
+display:block;
+text-align:center;
+margin-top:10px;
+}
+
+/* Error Message */
+.error{
+color:red;
+text-align:center;
+margin-bottom:10px;
+}
+
+/* Success Message */
+.success{
+color:green;
+text-align:center;
+margin-bottom:10px;
+}
