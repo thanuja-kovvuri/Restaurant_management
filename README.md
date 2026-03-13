@@ -48,7 +48,7 @@ Monitor order status
 
 The application follows a three-tier architecture.
 
-1️. Presentation Layer
+## 1️. Presentation Layer
 
 The user interface is built using:
 
@@ -56,7 +56,7 @@ HTML
 
 CSS
 
-Basic styling components
+# Basic styling components
 
 This layer provides:
 
@@ -68,7 +68,7 @@ Order placement page
 
 Staff dashboard for viewing orders
 
-2️. Application Logic Layer
+## 2️. Application Logic Layer
 
 The application logic is implemented using PHP.
 
@@ -86,7 +86,7 @@ Database communication
 
 Staff access control
 
-3️. Database Layer
+## 3️. Database Layer
 
 The system uses MySQL as the database.
 
@@ -128,25 +128,25 @@ Restaurant-Management-System
 
 
 
-db_connect.php
+- db_connect.php
 Database connection file.
 
-login.php
+- login.php
 Handles login for customers and staff.
 
-register.php
+- register.php
 Allows customers to create an account.
 
-order.php
+- order.php
 Displays menu items and allows customers to place orders.
 
-view_orders.php
+- view_orders.php
 Allows staff to view all customer orders and ordered items.
 
-staff.php
+- staff.php
 Staff dashboard.
 
-style.css
+- style.css
 Contains styling for the entire application.
 
 . Database Tables
@@ -157,7 +157,7 @@ customer
 
 Stores customer details.
 
-# Fields:
+## Fields:
 
 CustomerID
 
@@ -175,7 +175,7 @@ staff
 
 Stores staff login information.
 
-Fields:
+## Fields:
 
 StaffID
 
@@ -195,7 +195,7 @@ menu_item
 
 Stores available food items.
 
-# Fields:
+## Fields:
 
 ItemID
 
@@ -209,7 +209,7 @@ orders
 
 Stores order information.
 
-# Fields:
+## Fields:
 
 OrderID
 
@@ -231,7 +231,7 @@ order_details
 
 Stores ordered items.
 
-Fields:
+## Fields:
 
 OrderDetailID
 
@@ -270,7 +270,7 @@ Staff dashboard for viewing orders
 Display ordered items per order
 
 . How to Run the Project
-Method 1: Using XAMPP
+- Method 1: Using XAMPP
 
 Install XAMPP.
 
