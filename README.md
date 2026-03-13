@@ -104,7 +104,7 @@ Order details
 
 All operations are executed using SQL queries.
 
-. Technologies Used
+# Technologies Used
 
 The project is developed using the following technologies:
 
@@ -157,7 +157,7 @@ customer
 
 Stores customer details.
 
-Fields:
+# Fields:
 
 CustomerID
 
@@ -195,7 +195,7 @@ menu_item
 
 Stores available food items.
 
-Fields:
+# Fields:
 
 ItemID
 
@@ -209,7 +209,7 @@ orders
 
 Stores order information.
 
-Fields:
+# Fields:
 
 OrderID
 
