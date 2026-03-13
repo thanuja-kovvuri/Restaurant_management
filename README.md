@@ -241,7 +241,7 @@ ItemID
 
 Quantity
 
-. Features
+## Features
 
 The system provides the following features:
 
