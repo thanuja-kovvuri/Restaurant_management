@@ -302,7 +302,7 @@ Run the Project
 
 Open your browser and go to:
 
-http://localhost/restaurant/login.php
+http://localhost/restaurant/
 
 🔄 System Workflow
 
